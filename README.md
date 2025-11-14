@@ -1,0 +1,1 @@
+He añadido un PNG con la vision que tengo de la pagina desde mi PC de escritorio, dado que la he hecho en proporcion a la cantidad de pixeles de mi pantalla, ya que la imagen de referencia tenia menos cantidad de pixeles a lo ancho. Por esa razon algunos elementos estan mas separados unos de otros manteniendo una mayor sintonia con la pantalla en general.
