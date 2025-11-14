@@ -1,0 +1,8 @@
+body{
+ /* QUITAR MARGEN CON LOS BORDES DE LA PANTALLA */
+    margin: 0px;
+    
+/* FONT INTER */
+    font-family: "Inter", sans-serif;
+
+}

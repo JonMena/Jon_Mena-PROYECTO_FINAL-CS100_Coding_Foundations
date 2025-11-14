@@ -1,0 +1,96 @@
+/* ENCABEZADO */
+.encabezado{
+    height: 100px;
+    background-color: #010101;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-auto-flow: column;
+}
+
+/* LOGO */
+.logo-encabezado{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+.logo-encabezado img{
+    width: 80%;
+    
+}
+
+
+/* MENU DE NAVEGACIÓN */
+.menu-navegacion{
+    display: grid;
+    font-size: 1.2em;
+    margin-left: 25px;
+}
+.texto-explore{
+    display: flex;
+    align-items: last baseline;
+    color: #EFDF80;
+    height: 100%;
+}
+.texto-explore span{
+    display: flex;
+    align-items: last baseline;
+    font-weight: 500;
+}
+.links-paginas{
+    padding-top: 5px;
+    width: 700px;
+    height: 100%;
+    display: flex;
+    align-items: first baseline;
+    gap: 20px;
+    font-weight: 900;
+    font-size: 1.3em;
+}
+.links-paginas>.link a{
+    text-decoration: none;
+    color:#FFFFFF;
+    transition: 0.3s;
+}
+.links-paginas>.link a:hover{
+    letter-spacing: 1px;
+    color:#EFDF80;
+}
+.links-paginas>.desplegable-spark{
+    display: flex;
+    align-items: center;
+    color: #979192;
+    font-weight: 500;
+    padding-left: 30px;
+    gap:20px;
+}
+.links-paginas>.desplegable-spark a{
+    text-decoration: none;
+    color:#979192;
+}
+.links-paginas>.desplegable-spark i{
+    font-size: 70%;
+    padding-left: 30px;
+}
+
+
+
+/* OPCIONES DE USUARIO */
+.opciones-usuario{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    height: 100%;
+    margin-right: 20px;
+}
+.boton i{
+    font-size: 1.1em;
+    padding-left: 10px;
+    color: #4BD07A;
+}
+.opciones-usuario>.icono-lupa i{
+    color: #979192;
+    font-size: 2.5em;
+}
+

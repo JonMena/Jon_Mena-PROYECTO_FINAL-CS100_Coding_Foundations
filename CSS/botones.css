@@ -1,0 +1,21 @@
+.boton button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    padding-top: 5px;
+    color: #FFFFFF;
+    background-color: #36383F;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: 0.1s;
+    outline: none;
+
+}
+.boton button:active{
+    box-shadow: 5px 5px 30px rgba(151, 145, 146, 0.4);
+}

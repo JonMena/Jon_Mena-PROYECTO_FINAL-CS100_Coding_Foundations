@@ -1,0 +1,94 @@
+/* SECCION HERO */
+.seccion-hero{
+    height: 675px;
+    background-color: #2E3139;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-flow: column;
+    position: relative;
+    box-shadow: inset -600px -50px 150px rgba(0, 0, 0, 0.4);
+}
+
+/* COLUMNA IZQUIERDA */
+.columna-izquierda{
+    margin-top: 80px;
+    margin-left: 80px;
+    letter-spacing: 2px;
+}
+.texto-info1{
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 3.2em;
+    color: #ffffff;
+    font-weight: 100;
+}
+.texto-info1 span:nth-child(2){
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.texto-info2{
+    font-size: 2.5em;
+    color:#B3B0AF;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.icono-mano{
+    width: 70px;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    transform: translateY(-10px);
+}
+.icono-mano img{
+    height: 100%;
+    width: 100%;
+}
+.botones-opcion{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+}
+.botones-opcion>.boton:nth-child(1) button{
+    font-size: 2rem;
+    font-weight: 500;
+    color:black;
+    background-color: #4BD07A;
+}
+.botones-opcion>.boton:nth-child(2) button{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: black;
+}
+
+/* COLUMNA DERECHA */
+.columna-derecha{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 10px;
+}
+.texto-codepens{
+    width: 300px;
+    align-self: flex-start;
+    margin-left:90px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.texto-codepens span:nth-child(1),.texto-codepens span:nth-child(3){
+    color: #ffffff;
+}
+.texto-codepens span:nth-child(2){
+    color: #78DAFD;
+}
+.imagen-pagina{
+    width: min-content;
+    height: min-content;
+    overflow:hidden;
+}
+.imagen-pagina img{
+    height: 575px;
+    object-fit: contain;
+}

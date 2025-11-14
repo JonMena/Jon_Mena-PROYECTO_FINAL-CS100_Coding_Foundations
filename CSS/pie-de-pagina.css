@@ -1,0 +1,32 @@
+/* PIE DE PAGINA */
+.pie-de-pagina{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    height: 75px;
+    background-color:#36383F;
+}
+.texto-pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #6D6D6C;
+    gap: 5px;
+}
+.texto-pie span:nth-child(1){
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: 500;
+}
+.texto-pie span:nth-child(2){
+    font-family: "Jost", sans-serif;
+    font-size: 1.9em;
+    color: #ffffff;
+    font-weight: 800;
+    transform: translateY(-5px);
+}
+
+.parte-de-abajo{
+    height: 500px;
+    background-color: #191A1D;
+}
